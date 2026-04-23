@@ -1,6 +1,6 @@
 let members = JSON.parse(localStorage.getItem('techCommunityMembers')) || [
-    { nama: "Bimo Fadhlurrahman", email: "bimo@example.com", minat: "Cyber Security" },
-    { nama: "Haffi", email: "haffi@example.com", minat: "Web Development" }
+    { nama: "Bimo Fadhlurrahman", email: "bimoganteng@mail.com", minat: "Cyber Security" },
+    { nama: "Haffi", email: "budigaming@mail.com", minat: "Web Development" }
 ];
 
 function saveMembers() {
