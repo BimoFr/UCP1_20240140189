@@ -6,6 +6,40 @@
     <title>Tech Gallery</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light text-center">
+    <div class="container mt-5">
+        <h1 class="text-gold mb-5">Multimedia Content</h1>
+        
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6">
+                <div class="glass-card p-3">
+                    <img id="mainImg" src="OIP.webp" alt="Tech Image" class="img-fluid rounded mb-3">
+                </div>
+            </div>
 
+            <div class="col-md-6">
+                <div class="glass-card p-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="3248177-uhd_3840_2160_25fps.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 mt-4">
+                <div class="glass-card p-4">
+                    <h5 class="mb-3">Official Audio Stream</h5>
+                    <audio id="myAudio" src="Perunggu - Pastikan Riuh Akhiri Malammu (Official Music Video) 256KBPS.webm"></audio>
+                    <div class="d-flex justify-content-center gap-3">
+                        <button onclick="playAudio()" class="btn btn-success">PLAY</button>
+                        <button onclick="pauseAudio()" class="btn btn-danger">STOP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="./index.html" class="btn btn-link text-gold mt-5">Kembali ke Home</a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
