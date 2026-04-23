@@ -1,0 +1,17 @@
+body { background-color: #0a0a0a; }
+.text-gold { color: #d4af37; }
+.btn-gold { background-color: #d4af37; color: black; border: none; }
+.btn-gold:hover { background-color: #b8962d; }
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.fade-in { animation: fadeIn 1.5s ease-in; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.table-dark { --bs-table-bg: transparent; }
